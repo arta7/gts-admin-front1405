@@ -1,0 +1,71 @@
+.spinnerContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: calc(89vh);
+	overflow: hidden;
+}
+
+.spinner {
+	position: absolute;
+	width: 270px;
+	height: 270px;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+	box-sizing: initial !important;
+}
+
+.loader-spinner{
+	border:3px solid #d6336c;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	animation:rotate 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+}
+#loader2{
+	border:3px solid #3bc9db;
+	width:220px;
+	height:220px;
+	position:relative;
+	top:-216px;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	animation:rotate2 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+}
+#loader3{
+	border:3px solid #d6336c;
+	width:240px;
+	height:240px;
+	position:relative;
+	top:-452px;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	animation:rotate 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+}
+#loader4{
+	border:3px solid #3bc9db;
+	width:260px;
+	height:260px;
+	position:relative;
+	top:-708px;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	animation:rotate2 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+}
+@keyframes rotate{
+	0%{transform:rotate(-360deg)}
+	100%{transform:rotate(0deg)}
+}
+@keyframes rotate2{
+	0%{transform:rotate(360deg)}
+	100%{transform:rotate(0deg)}
+}
+#spinnerText{
+	color:black;
+	font-size:20px;
+	position:relative;
+	top:-857px;
+}

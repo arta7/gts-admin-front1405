@@ -1,0 +1,348 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "system": {
+        "id": "1",
+        "caption": "داشبورد",
+        "routPath":"",
+        "subSystems": []
+      }
+    },
+    {
+      "system": {
+        "id": "2",
+        "caption": "پیشخوان",
+        "routPath":"Pishkhan",
+        "subSystems": [
+          {
+            "id": "1",
+            "caption": "دبیرخانه",
+            "routPath":"Dabirkhane",
+            "children": []
+          },
+          {
+            "id": "2",
+            "caption": "لیست ابلاغیه",
+            "routPath":"Eblaghie",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "3",
+        "caption": "مدیریت دعاوی",
+        "routPath":"ModiriatDaavi",
+        "subSystems": [
+          {
+            "id": "1",
+            "caption": "دعاوی حقوقی",
+            "routPath":"Hoghoghy",
+            "children": [],
+            "subSystemId":"3"
+          },
+          {
+            "id": "8",
+            "caption": "دعاوی دیوان عدالت",
+            "routPath":"DivanEdalat",
+            "children": []
+          },
+          {
+            "id": "9",
+            "caption": "دعاوی کیفری",
+            "routPath":"keyfari",
+            "children": []
+          },
+          {
+            "id": "10",
+            "caption": "دعاوی اداره کار",
+            "routPath":"EdareKar",
+            "children": []
+          },
+          {
+            "id": "11",
+            "caption": "دعاوی شبه قضایی",
+            "routPath":"ShebheGhazaie",
+            "children": []
+          }
+        ]
+      }
+    },{
+      "system": {
+        "id": "14",
+        "caption": "گزارشات",
+        "routPath":"Gozareshat",
+        "subSystems": [
+          {
+            "id": "49",
+            "caption": "گزارش مدیریت دعاوی",
+            "routPath":"GozareshModiriatDaavi",
+            "children": [
+              {
+                "id": "1",
+                "subSystemId": "49",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "دعاوی حقوقی",
+                "routPath":"HoghoghyDaavi",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "2",
+                "subSystemId": "49",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "دعاوی دیوان عدالت",
+                "routPath":"DivanEdalat",
+                "sortOrder": 2,
+                "isActive": true
+              },
+              {
+                "id": "3",
+                "subSystemId": "49",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "دعاوی کیفری",
+                "routPath":"keyfari",
+                "sortOrder": 3,
+                "isActive": true
+              },
+              {
+                "id": "4",
+                "subSystemId": "49",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "دعاوی اداره کار",
+                "routPath":"EdareKar",
+                "sortOrder": 4,
+                "isActive": true
+              },
+              {
+                "id": "5",
+                "subSystemId": "49",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "دعاوی شبه قضایی",
+                "routPath":"ShebheGhazaie",
+                "sortOrder": 5,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "50",
+            "caption": "گزارش کمیسیون تخصصی",
+            "routPath":"komisionTakhasosi",
+            "children": []
+          },
+          {
+            "id": "51",
+            "caption": "گزارش استعلامات حقوقی",
+            "routPath":"EstelamatHoghoghi",
+            "children": []
+          },
+          {
+            "id": "52",
+            "caption": "گزارش تخلفات اداری",
+            "routPath":"TakhalofatEdari",
+            "children": []
+          },
+          {
+            "id": "53",
+            "caption": "گزارش بازرسی و شکایت",
+            "routPath":"BazresiShekayat",
+            "children": []
+          },
+          {
+            "id": "54",
+            "caption": "گزارش بازیافت و خسارت",
+            "routPath":"BazyaftKhesarat",
+            "children": []
+          },
+          {
+            "id": "55",
+            "caption": "گزارش مدیریت تعهدات",
+            "routPath":"ModiriatTahodat",
+            "children": []
+          },
+          {
+            "id": "56",
+            "caption": "گزارش مدیریت قراردادها",
+            "routPath":"ModiriatGharardad",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "15",
+        "caption": "امکانات",
+        "routPath":"Emkanat",
+        "subSystems": [
+          {
+            "id": "60",
+            "caption": "مدیریت دانش",
+            "routPath":"ModiriatDanesh",
+            "children": []
+          },
+          {
+            "id": "61",
+            "caption": "تالار گفتگو",
+            "routPath":"TalarGoftogo",
+            "children": []
+          },
+          {
+            "id": "62",
+            "caption": "پشتیبان سامانه",
+            "routPath":"PoshtibanSamane",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "16",
+        "caption": "تعاریف سیستم",
+        "routPath":"TaarirfSystem",
+        "subSystems": [
+          {
+            "id": "63",
+            "caption": "مدیریت دعاوی",
+            "routPath":"ModiriatDaavi",
+            "children": [
+              {
+                "id": "11",
+                "subSystemId": "63",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "مواعد دادرسی",
+                "routPath":"MavaedDadresi",
+                "sortOrder": 1,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "64",
+            "caption": "کمیسیون تخصصی",
+            "routPath":"komisionTakhasosi",
+            "children": [
+              {
+                "id": "12",
+                "subSystemId": "64",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "شعب کمیسیون",
+                "routPath":"ShoabKomision",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "13",
+                "subSystemId": "64",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "اعضای کمیسیون",
+                "routPath":"AzayeKomision",
+                "sortOrder": 2,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "65",
+            "caption": "تخلفات اداری کارکنان",
+            "routPath":"TakhalofatEdariKarkonan",
+            "children": [
+              {
+                "id": "14",
+                "subSystemId": "65",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "تعریف هیات/گروه ",
+                "routPath":"TarifGoroh",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "15",
+                "subSystemId": "65",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "اعضای هیات/گروه",
+                "routPath":"AzayeGoroh",
+                "sortOrder": 2,
+                "isActive": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "17",
+        "caption": "اطلاعات پایه",
+        "routPath":"EtelatPaye",
+        "subSystems": [
+          {
+            "id": "69",
+            "caption": "ساختار سازمانی",
+            "routPath":"SakhtarSazmani",
+            "children": []
+          },
+          {
+            "id": "70",
+            "caption": "مدیریت کاربران",
+            "routPath":"ModiriatKarbaran",
+            "children": [
+              {
+                "id": "23",
+                "subSystemId": "70",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": " گروههای کاری",
+                "routPath":"GooroohKari",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "24",
+                "subSystemId": "70",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "کاربران",
+                "routPath":"Karbaran",
+                "sortOrder": 2,
+                "isActive": true
+              },
+              {
+                "id": "69",
+                "caption": "مقادیر پویا",
+                "routPath":"Definitions",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

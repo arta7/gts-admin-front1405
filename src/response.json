@@ -1,0 +1,800 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "system": {
+        "id": "1",
+        "caption": "داشبورد",
+        "subSystems": []
+      }
+    },
+    {
+      "system": {
+        "id": "2",
+        "caption": "پیشخوان",
+        "subSystems": [
+          {
+            "id": "1",
+            "caption": "دبیرخانه",
+            "children": []
+          },
+          {
+            "id": "2",
+            "caption": "لیست ابلاغیه",
+            "children": []
+          },
+          {
+            "id": "3",
+            "caption": "اظهارنامه ها",
+            "children": []
+          },
+          {
+            "id": "4",
+            "caption": "لیست جلسات",
+            "children": []
+          },
+          {
+            "id": "5",
+            "caption": "لیست ماموریت",
+            "children": []
+          },
+          {
+            "id": "6",
+            "caption": "پایش عملکرد",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "3",
+        "caption": "مدیریت دعاوی",
+        "subSystems": [
+          {
+            "id": "7",
+            "caption": "دعاوی حقوقی",
+            "children": []
+          },
+          {
+            "id": "8",
+            "caption": "دعاوی دیوان عدالت",
+            "children": []
+          },
+          {
+            "id": "9",
+            "caption": "دعاوی کیفری",
+            "children": []
+          },
+          {
+            "id": "10",
+            "caption": "دعاوی اداره کار",
+            "children": []
+          },
+          {
+            "id": "11",
+            "caption": "دعاوی شبه قضایی",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "4",
+        "caption": "کمیسیون تخصصی",
+        "subSystems": [
+          {
+            "id": "12",
+            "caption": "دبیرخانه کمیسیون",
+            "children": []
+          },
+          {
+            "id": "13",
+            "caption": "شکایات کمیسیون",
+            "children": []
+          },
+          {
+            "id": "14",
+            "caption": "جلسات کمیسیون",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "5",
+        "caption": "مدیریت استعلامات",
+        "subSystems": [
+          {
+            "id": "15",
+            "caption": "استعلام حقوقی",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "6",
+        "caption": "تخلفات اداری کارکنان",
+        "subSystems": [
+          {
+            "id": "16",
+            "caption": "مکاتبات اداری",
+            "children": []
+          },
+          {
+            "id": "17",
+            "caption": "کارتابل شکایت",
+            "children": []
+          },
+          {
+            "id": "18",
+            "caption": "پرونده تخلفات",
+            "children": []
+          },
+          {
+            "id": "19",
+            "caption": "جلسات هیات",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "7",
+        "caption": "بازرسی و شکایات",
+        "subSystems": [
+          {
+            "id": "20",
+            "caption": "ثبت شکایت",
+            "children": []
+          },
+          {
+            "id": "21",
+            "caption": "کارتابل شکایت",
+            "children": []
+          },
+          {
+            "id": "22",
+            "caption": "پرونده تخلفات",
+            "children": []
+          },
+          {
+            "id": "23",
+            "caption": "جلسات هیات",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "8",
+        "caption": "بازیافت و خسارت",
+        "subSystems": [
+          {
+            "id": "24",
+            "caption": "ثبت ریکاوری",
+            "children": []
+          },
+          {
+            "id": "25",
+            "caption": "پیگیری و اقدام",
+            "children": []
+          },
+          {
+            "id": "26",
+            "caption": "وصول مطالبات",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "9",
+        "caption": "مدیریت تعهدات",
+        "subSystems": [
+          {
+            "id": "27",
+            "caption": "تسهیلات آموزشی",
+            "children": []
+          },
+          {
+            "id": "28",
+            "caption": "تسهیلات درمانی",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "10",
+        "caption": "مدیریت قراردادها",
+        "subSystems": [
+          {
+            "id": "29",
+            "caption": "ثبت فراخوان",
+            "children": []
+          },
+          {
+            "id": "30",
+            "caption": "قرارداد مناقصه",
+            "children": []
+          },
+          {
+            "id": "31",
+            "caption": "قرارداد مزایده",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "11",
+        "caption": "مدیریت املاک",
+        "subSystems": [
+          {
+            "id": "32",
+            "caption": "بانک املاک",
+            "children": []
+          },
+          {
+            "id": "33",
+            "caption": "عقود ناقله",
+            "children": []
+          },
+          {
+            "id": "34",
+            "caption": "عملیات واگذاری",
+            "children": []
+          },
+          {
+            "id": "35",
+            "caption": "متولی املاک",
+            "children": []
+          },
+          {
+            "id": "36",
+            "caption": "املاک و مستغلات",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "12",
+        "caption": "مدیریت منابع انسانی",
+        "subSystems": [
+          {
+            "id": "37",
+            "caption": "کارگزینی و تشکیلات",
+            "children": []
+          },
+          {
+            "id": "38",
+            "caption": "طبقه بندی مشاغل",
+            "children": []
+          },
+          {
+            "id": "39",
+            "caption": "آموزش کارکنان",
+            "children": []
+          },
+          {
+            "id": "40",
+            "caption": "رفاهی و ورزش",
+            "children": []
+          },
+          {
+            "id": "41",
+            "caption": "ارزیابی کارکنان",
+            "children": []
+          },
+          {
+            "id": "42",
+            "caption": "آمار و اطلاعات",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "13",
+        "caption": "خدمات سبدگردانی",
+        "subSystems": [
+          {
+            "id": "43",
+            "caption": "معرفی حساب",
+            "children": []
+          },
+          {
+            "id": "44",
+            "caption": "تاییدیه سجام",
+            "children": []
+          },
+          {
+            "id": "45",
+            "caption": "افتتاح حساب",
+            "children": []
+          },
+          {
+            "id": "46",
+            "caption": "قرارداد حساب",
+            "children": []
+          },
+          {
+            "id": "47",
+            "caption": "درخواست ها",
+            "children": []
+          },
+          {
+            "id": "48",
+            "caption": "گزارش حساب",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "14",
+        "caption": "گزارشات",
+        "subSystems": [
+          {
+            "id": "49",
+            "caption": "گزارش مدیریت دعاوی",
+            "children": [
+              {
+                "id": "1",
+                "subSystemId": "49",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "دعاوی حقوقی",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "2",
+                "subSystemId": "49",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "دعاوی دیوان عدالت",
+                "sortOrder": 2,
+                "isActive": true
+              },
+              {
+                "id": "3",
+                "subSystemId": "49",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "دعاوی کیفری",
+                "sortOrder": 3,
+                "isActive": true
+              },
+              {
+                "id": "4",
+                "subSystemId": "49",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "دعاوی اداره کار",
+                "sortOrder": 4,
+                "isActive": true
+              },
+              {
+                "id": "5",
+                "subSystemId": "49",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "دعاوی شبه قضایی",
+                "sortOrder": 5,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "50",
+            "caption": "گزارش کمیسیون تخصصی",
+            "children": []
+          },
+          {
+            "id": "51",
+            "caption": "گزارش استعلامات حقوقی",
+            "children": []
+          },
+          {
+            "id": "52",
+            "caption": "گزارش تخلفات اداری",
+            "children": []
+          },
+          {
+            "id": "53",
+            "caption": "گزارش بازرسی و شکایت",
+            "children": []
+          },
+          {
+            "id": "54",
+            "caption": "گزارش بازیافت و خسارت",
+            "children": []
+          },
+          {
+            "id": "55",
+            "caption": "گزارش مدیریت تعهدات",
+            "children": []
+          },
+          {
+            "id": "56",
+            "caption": "گزارش مدیریت قراردادها",
+            "children": []
+          },
+          {
+            "id": "57",
+            "caption": "گزارش مدیریت املاک",
+            "children": [
+              {
+                "id": "6",
+                "subSystemId": "57",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "بانک املاک",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "7",
+                "subSystemId": "57",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "عقود ناقله",
+                "sortOrder": 2,
+                "isActive": true
+              },
+              {
+                "id": "8",
+                "subSystemId": "57",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "عملیات واگذاری",
+                "sortOrder": 3,
+                "isActive": true
+              },
+              {
+                "id": "9",
+                "subSystemId": "57",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "متولی املاک",
+                "sortOrder": 4,
+                "isActive": true
+              },
+              {
+                "id": "10",
+                "subSystemId": "57",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "املاک و مستغلات",
+                "sortOrder": 5,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "58",
+            "caption": "گزارش مدیریت منابع انسانی",
+            "children": []
+          },
+          {
+            "id": "59",
+            "caption": "گزارش خدمات سبدگردانی",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "15",
+        "caption": "امکانات",
+        "subSystems": [
+          {
+            "id": "60",
+            "caption": "مدیریت دانش",
+            "children": []
+          },
+          {
+            "id": "61",
+            "caption": "تالار گفتگو",
+            "children": []
+          },
+          {
+            "id": "62",
+            "caption": "پشتیبان سامانه",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "16",
+        "caption": "تعاریف سیستم",
+        "subSystems": [
+          {
+            "id": "63",
+            "caption": "مدیریت دعاوی",
+            "children": [
+              {
+                "id": "11",
+                "subSystemId": "63",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "مواعد دادرسی",
+                "sortOrder": 1,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "64",
+            "caption": "کمیسیون تخصصی",
+            "children": [
+              {
+                "id": "12",
+                "subSystemId": "64",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "شعب کمیسیون",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "13",
+                "subSystemId": "64",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "اعضای کمیسیون",
+                "sortOrder": 2,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "65",
+            "caption": "تخلفات اداری کارکنان",
+            "children": [
+              {
+                "id": "14",
+                "subSystemId": "65",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "تعریف هیات/گروه ",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "15",
+                "subSystemId": "65",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "اعضای هیات/گروه",
+                "sortOrder": 2,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "66",
+            "caption": "مدیریت املاک",
+            "children": [
+              {
+                "id": "16",
+                "subSystemId": "66",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "فرآیند مستندسازی",
+                "sortOrder": 1,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "67",
+            "caption": "مدیریت منابع انسانی",
+            "children": []
+          },
+          {
+            "id": "68",
+            "caption": "مدیریت سبدگردانی",
+            "children": [
+              {
+                "id": "17",
+                "subSystemId": "68",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "مدیریت مالی",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "18",
+                "subSystemId": "68",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "تحلیل جامع (تمتا)",
+                "sortOrder": 2,
+                "isActive": true
+              },
+              {
+                "id": "19",
+                "subSystemId": "68",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "سبد گردانی",
+                "sortOrder": 3,
+                "isActive": true
+              },
+              {
+                "id": "20",
+                "subSystemId": "68",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "امور معاملات",
+                "sortOrder": 4,
+                "isActive": true
+              },
+              {
+                "id": "21",
+                "subSystemId": "68",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "امور مشتریان",
+                "sortOrder": 5,
+                "isActive": true
+              },
+              {
+                "id": "22",
+                "subSystemId": "68",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "مدیریت محتوا",
+                "sortOrder": 6,
+                "isActive": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "system": {
+        "id": "17",
+        "caption": "اطلاعات پایه",
+        "subSystems": [
+          {
+            "id": "69",
+            "caption": "ساختار سازمانی",
+            "children": []
+          },
+          {
+            "id": "70",
+            "caption": "مدیریت کاربران",
+            "children": [
+              {
+                "id": "23",
+                "subSystemId": "70",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": " گروههای کاری",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "24",
+                "subSystemId": "70",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "کاربران",
+                "sortOrder": 2,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "71",
+            "caption": "تعاریف پایه",
+            "children": [
+              {
+                "id": "25",
+                "subSystemId": "71",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "مقادیر پویا",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "26",
+                "subSystemId": "71",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "تقسیمات کشوری",
+                "sortOrder": 2,
+                "isActive": true
+              }
+            ]
+          },
+          {
+            "id": "72",
+            "caption": "تنظیمات",
+            "children": [
+              {
+                "id": "27",
+                "subSystemId": "72",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "تعطیلات رسمی",
+                "sortOrder": 1,
+                "isActive": true
+              },
+              {
+                "id": "28",
+                "subSystemId": "72",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "صفحه ورود",
+                "sortOrder": 2,
+                "isActive": true
+              },
+              {
+                "id": "29",
+                "subSystemId": "72",
+                "parentId": null,
+                "componentType": 0,
+                "componentName": "menu",
+                "caption": "نسخه مشتری",
+                "sortOrder": 3,
+                "isActive": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

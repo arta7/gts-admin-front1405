@@ -1,0 +1,130 @@
+{
+    "status": 200,
+    "result": {
+        "mobile": 989122126825,
+        "email": null,
+        "uniqueIdentifier": "2062996802",
+        "type": "IranianPrivatePerson",
+        "status": "Sejami",
+        "privatePerson": {
+            "firstName": "سید هادی",
+            "lastName": "قربانی زعفرانی",
+            "fatherName": "سید صادق",
+            "gender": "Male",
+            "seriShChar": "ا",
+            "seriSh": "86",
+            "serial": "776520",
+            "shNumber": "597",
+            "birthDate": "1979-06-28T00:00:00",
+            "placeOfIssue": "بابل",
+            "placeOfBirth": "بابل",
+            "signatureFile": null
+        },
+        "legalPerson": null,
+        "addresses": [
+            {
+                "postalCode": "1587815434",
+                "country": {
+                    "id": 1,
+                    "name": "ایران"
+                },
+                "province": {
+                    "id": 137,
+                    "name": "اصفهان"
+                },
+                "city": {
+                    "id": 2198,
+                    "name": "بو یین و میاندشت"
+                },
+                "section": {
+                    "id": 3444,
+                    "name": "مرکزی"
+                },
+                "cityPrefix": "021",
+                "remnantAddress": "تست",
+                "alley": "تست",
+                "plaque": "تست",
+                "tel": "11111111",
+                "countryPrefix": null,
+                "mobile": null,
+                "emergencyTel": null,
+                "emergencyTelCityPrefix": null,
+                "emergencyTelCountryPrefix": null,
+                "faxPrefix": null,
+                "fax": null,
+                "website": null,
+                "email": null
+            }
+        ],
+        "tradingCodes": [],
+        "agent": null,
+        "accounts": [
+            {
+                "accountNumber": "5622936478",
+                "type": "CurrentAccount",
+                "sheba": "IR380120010000005622936478",
+                "bank": {
+                    "id": 130,
+                    "name": "بانک ملت"
+                },
+                "branchCode": "62018",
+                "branchName": "چهار راه ولیعصر",
+                "branchCity": {
+                    "id": 2202,
+                    "name": "بوکان"
+                },
+                "isDefault": false
+            },
+            {
+                "accountNumber": "3078000100941781",
+                "type": "CurrentAccount",
+                "sheba": "IR560570030780010094178001",
+                "bank": {
+                    "id": 123104,
+                    "name": "بانک پاسارگاد"
+                },
+                "branchCode": "435345",
+                "branchName": "تست",
+                "branchCity": {
+                    "id": 2346,
+                    "name": "سرعین"
+                },
+                "isDefault": true
+            }
+        ],
+        "jobInfo": {
+            "employmentDate": null,
+            "companyName": null,
+            "companyAddress": "تست",
+            "companyPostalCode": "1111111111",
+            "companyEmail": "test@test.com",
+            "companyWebSite": null,
+            "companyCityPrefix": "021",
+            "companyPhone": "11111111",
+            "position": null,
+            "companyFaxPrefix": null,
+            "companyFax": null,
+            "job": {
+                "id": 109180,
+                "title": "کارمند"
+            },
+            "jobDescription": null
+        },
+        "financialInfo": {
+            "assetsValue": null,
+            "inComingAverage": null,
+            "sExchangeTransaction": null,
+            "cExchangeTransaction": null,
+            "outExchangeTransaction": null,
+            "transactionLevel": "One",
+            "tradingKnowledgeLevel": "Good",
+            "companyPurpose": null,
+            "referenceRateCompany": null,
+            "rateDate": null,
+            "rate": null,
+            "financialBrokers": []
+        },
+        "legalPersonShareholders": [],
+        "legalPersonStakeholders": []
+    }
+}

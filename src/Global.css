@@ -1,0 +1,18 @@
+.body {
+  direction: rtl;
+  /* background-color: #eef1f5 !important; */
+}
+.input:-internal-autofill-selected {
+  appearance: menulist-button;
+  background-image: none !important;
+  background-color: none !important;
+  color: fieldtext !important;
+}
+.style {
+  width: 300px;
+}
+.cssjss-swal-container{
+  width: 300px;
+  height: 250px;
+  font-family: Vazirmatn UI FD;
+}
